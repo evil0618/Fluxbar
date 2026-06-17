@@ -1,0 +1,16 @@
+<Application
+    x:Class="GlobalSidebar.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    ShutdownMode="OnMainWindowClose">
+
+    <!--
+        全局渲染优化设置：
+        1. RenderOptions.ProcessRenderMode = SoftwareOnly 时禁用硬件加速
+           我们需要硬件加速，所以不设置此属性（默认启用）
+        2. 启用硬件加速的文本渲染
+    -->
+    <Application.Resources>
+        <!-- 全局样式可在后续扩展 -->
+    </Application.Resources>
+</Application>
