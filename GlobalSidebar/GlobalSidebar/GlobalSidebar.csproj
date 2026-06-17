@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>GlobalSidebar</RootNamespace>
+    <AssemblyName>GlobalSidebar</AssemblyName>
+    <ApplicationIcon />
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <!-- 允许在非 Windows 系统上构建 Windows 目标项目（用于 CI/CD） -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+</Project>

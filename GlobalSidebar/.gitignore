@@ -1,0 +1,28 @@
+## .NET
+obj/
+*.user
+*.suo
+*.cache
+*.log
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+## Build
+[Rr]elease/
+x64/
+x86/
+bld/
+[Oo]bj/
+
+## NuGet
+**/packages/*
+*.nupkg
+**/[Pp]ackages/**
+nuget.exe
+
+## Windows
+Thumbs.db
+Desktop.ini
